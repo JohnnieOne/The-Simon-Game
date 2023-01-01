@@ -1,0 +1,57 @@
+body {
+  background-color: #1b2b4c; /* Culoare originala 283c63 */
+  text-align: center;
+}
+
+h1 {
+  color: #fbe8d3;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+}
+
+.game-over {
+  background-color: red;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.btn {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 15%;
+  border-width: 0.5rem;
+}
+
+.red {
+  position: absolute;
+  left: 50rem;
+  background-color: red;
+}
+
+.yellow {
+  position: absolute;
+  left: 30rem;
+  top: 18rem;
+  background-color: yellow;
+}
+
+.blue {
+  position: absolute;
+  left: 50rem;
+  top: 18rem;
+  background-color: blue;
+}
+
+.green {
+  position: absolute;
+  left: 30rem;
+  background-color: forestgreen;
+}
+
+.pressed {
+  background-color: grey;
+  box-shadow: 0 0 20px white;
+}
